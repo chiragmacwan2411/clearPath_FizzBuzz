@@ -39,4 +39,4 @@ class selenium_test():
                 print(str(fizz_buzz_result) + "  " + str(fizz_buzz_validator) + " FAIL")
 
         """finish tests"""
-        self.sh.finsh_tests()
+        self.sh.finish_tests()

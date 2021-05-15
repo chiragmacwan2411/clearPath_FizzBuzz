@@ -1,7 +1,7 @@
 from Tests import test_fizzbuzz
 
 def solution():
-    print("<==========STARTING FIZZBUZZ TEST==========> \n")
+    print("<========== STARTING FIZZBUZZ TEST ==========> \n")
     ans = test_fizzbuzz.selenium_test()
     ans.test_FizzBuzz()
 

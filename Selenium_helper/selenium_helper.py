@@ -9,6 +9,6 @@ class Selenium_Helper:
         self.driver.set_page_load_timeout(10)
 
     """quits driver after tests are completed"""
-    def finsh_tests(self):
+    def finish_tests(self):
         print("=====> Finished All Tests ===> Quitting Driver")
         self.driver.quit()
